@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1E95A829A41E09007293F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD4B7F85299E2C6B00916DAD /* ARDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4B7F88299E2C6B00916DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4B7F8A299E2C6B00916DAD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -55,10 +56,11 @@
 		BD4B7F87299E2C6B00916DAD /* ARDicee */ = {
 			isa = PBXGroup;
 			children = (
+				BD1E95A829A41E09007293F7 /* Info.plist */,
 				BD4B7F88299E2C6B00916DAD /* AppDelegate.swift */,
-				BD4B7F8A299E2C6B00916DAD /* art.scnassets */,
 				BD4B7F8C299E2C6B00916DAD /* ViewController.swift */,
 				BD4B7F8E299E2C6B00916DAD /* Main.storyboard */,
+				BD4B7F8A299E2C6B00916DAD /* art.scnassets */,
 				BD4B7F91299E2C6C00916DAD /* Assets.xcassets */,
 				BD4B7F93299E2C6C00916DAD /* LaunchScreen.storyboard */,
 			);
@@ -287,6 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B2ZF7338R8;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARDicee/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -300,6 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rimvydas.petniunas.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -317,6 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B2ZF7338R8;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARDicee/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -330,6 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rimvydas.petniunas.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
